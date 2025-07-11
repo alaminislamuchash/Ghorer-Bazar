@@ -1,7 +1,3 @@
-
-.main_Content {
-
-}
 .Svg_button {
     height: 30px;
     width: 60px;
@@ -17,16 +13,6 @@
 .header_Section p {
     color: #fff;
     text-align: center;
-    
-}
-.Svg_search {
-
-}
-.svg_icon {
-
-}
-.svg_cart {
-
 }
 .naveber_logo {
     display: flex;
@@ -35,27 +21,12 @@
     gap: 22rem;
     /* padding-left: 1rem; */
 }
-.Search {
-
-}
-.icon {
-
-}
-.cart {
-
-}
 .naveber_logo img {
     height: 67px;
     width: 11rem;
     padding-top: 16px;
     margin-right: 20px;
    
-}
-.nav_logo_img img {
-
-}
-.navebar {
-
 }
 .navebar ul {
     list-style: none;
@@ -77,9 +48,7 @@
     list-style: none;
     text-decoration: none;
 }
-.Honey {
 
-}
 .Honey ul {
     position: absolute;
     top: 15rem;
@@ -89,9 +58,7 @@
     font-size: 21px;
     list-style: none;
 }
-.Honey ul li {
 
-}
 .Honey ul li a {
     color: #000;
     text-decoration: none;
@@ -104,12 +71,6 @@
     top: 8px;
     padding-left: 1rem;
     left: -16rem;
-}
-.GhorerBazar img img {
-
-}
-.content {
-
 }
 .content h2 {
     text-align: center;
@@ -170,10 +131,7 @@
     color: #fff;
     padding: 0px 20px;
 }
-.btn_paragraph p {}
-.btn_Accesories p {
 
-}
 .Second_product {
     display: flex;
     align-items: center;
@@ -254,9 +212,6 @@
     height: 37px;
 }
 
-.product_Form {
-
-}
 .product_explain {
     display: grid;
     grid-template-columns: 100px 1fr 1.2fr;
@@ -283,9 +238,7 @@
     width: 150%;
     text-align: center;
 }
-.kash_on_delivery p {
 
-}
 .Pay_online {
     background: #FFEB3B;
     border: 2px solid #ddd8d8;
@@ -293,9 +246,7 @@
     width: 150%;
     text-align: center;
 }
-.Pay_online p {
 
-}
 .Chat_with_us {
     background: #0a0a0a;
     border: 2px solid #ddd8d8;
@@ -304,9 +255,7 @@
     text-align: center;
     color: #fff;
 }
-.Chat_with_us p {
 
-}
 .WhatsApp {
     background: #060606;
     border: 2px solid #ddd8d8;
@@ -315,9 +264,7 @@
     text-align: center;
     color: #fff;
 }
-.WhatsApp p {
 
-}
 .WhatsApp img {
     height: 29px;
     width: 7%;
@@ -326,19 +273,12 @@
     right: 65px;
     margin-top: -5rem;
 }
-.Description_menu {
 
-}
 .Description_menu p {
     border-bottom: 2px solid #eb3f09;
     height: 29px;
 }
-.contact {
 
-}
-.contact p {
-
-}
 .contact p a {
     color: #000;
 }
@@ -383,9 +323,7 @@
 .delivery h2 {
     color: #8f8a8a;
 }
-.delivery p {
 
-}
 .deliver_content_Second img {
     width: 23%;
     position: relative;
@@ -402,9 +340,7 @@
     top: 124px;
     right: 66px;
 }
-.deliver_content_Third {
- 
-}
+
 .deliver_content_Third img {
     width: 25%;
     position: relative;
@@ -467,9 +403,7 @@ input[type="Email"] {
     flex-direction: row;
     padding-right: 30rem;
 }
-.Orginal_Oil {
 
-}
 .Orginal_Oil img {
     width: 61%;
     height: 39%;
@@ -478,47 +412,20 @@ input[type="Email"] {
     width: 86%;
     height: 56%;
 }
-.Orginal_Oil p {
-
-}
-.oil {
-
-}
 .oil img {
     width: 61%;
     height: 39%;
-}
-.oil p {
-
-}
-.Ghee {
-
 }
 .Ghee img {
     width: 61%;
     height: 39%;
 }
-.Ghee p {
-
-}
-.Dates {
-
-}
 .Dates img {
     width: 61%;
     height: 39%;
 }
-.Dates p {
-
-}
-.Third_Product {
-
-}
 .Third_Product h2 {
     font-family: Arial;
-}
-.Tea_Snacks {
-
 }
 .Tea_Snacks img {
     width: 15%;
@@ -550,9 +457,6 @@ input[type="Email"] {
     justify-content: flex-start;
     gap: 8rem;
 }
-.Footer_first {
-
-}
 .Footer_first h2 {
     color: #f57004;
     font-family: Arial;
@@ -565,9 +469,6 @@ input[type="Email"] {
     font-size: 20px;
     font-family: Arial;
     text-align: justify;
-}
-.Footer_first li{
-
 }
 .Footer_first img {
     width: 26%;
@@ -596,9 +497,6 @@ input[type="Email"] {
     gap: 6px;
     margin-left: 29rem;
     color: #fff;
-}
-.Footer_text p{
-
 }
 .red {
     margin-top: 1rem;
