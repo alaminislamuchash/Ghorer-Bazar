@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Grid</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+
+    .product-container {
+      display: grid;
+      grid-template-columns: 100px 1fr 1.2fr;
+      gap: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .thumbnails {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .thumbnails img {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .main-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .main-image img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .discount-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: red;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      font-weight: bold;
+    }
+
+    .product-details {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .product-details h2 {
+      font-size: 24px;
+    }
+
+    .price {
+      font-size: 20px;
+      color: green;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #777;
+      margin-left: 10px;
+    }
+
+    .tag {
+      background: orange;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-left: 5px;
+    }
+
+ .buttons button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+    .add-to-cart {
+      background: black;
+      color: white;
+    }
+
+    .order-now {
+      background: orange;
+      color: black;
+    }
+
+    .pay-online {
+      background: gold;
+      color: black;
+    }
+  .Chat-online {
+    background: #000;
+    color: #fff;
+}
+.Chat-online img {
+    width: 2%;
+    position: absolute;
+    height: 19px;
+    right: 25rem;
+}
+  .Whatsapp-online {
+    background: #000;
+    color: #fff;
+}
+.Whatsapp-online img {
+    width: 2%;
+    position: absolute;
+    height: 19px;
+    right: 25rem;
+}
+    .Descrition_menu {
+
+    }
+    .Descrition_menu p {
+    border-bottom: 2px solid #f57004;
+    font-size: 20px;
+}
+   .svg_R {
+    position: absolute;
+    right: 2rem;
+    height: 22px;
+    width: 2%;
+}
+    .Contuct_details {
+
+    }
+    .Contuct_details p {
+
+    }
+    .Contuct_details p b {
+    font-size: 21px;
+}
+   .Contuct_details p a {
+    color: #000;
+}
+.delivery {
+    position: relative;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    background: #f3f0f0;
+}
+.delivery h2 {
+    color: #8f8a8a;
+}
+.delivery p {
+
+}
+.deliver_content_Second img {
+    width: 23%;
+    position: relative;
+    top: 69px;
+    right: 62px;
+}
+.deliver_content_first {
+    padding-left: 59px;
+    
+}
+.deliver_content_first img {
+    width: 25%;
+    position: relative;
+    top: 75px;
+    right: 54px;
+}
+.deliver_content_Third {
+ 
+}
+.deliver_content_Third img {
+    width: 25%;
+    position: relative;
+    top: 85px;
+    right: 88px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="product-container">
+    <!-- Left Thumbnails -->
+    <div class="thumbnails">
+     <img src="image/honeycomb-500gm.jpg" alt="Thumbnail 1">
+     <img src="image/honeycomb-500gm.jpg" alt="Thumbnail 2">
+     <img src="image/honeycomb-500gm.jpg" alt="Thumbnail 3">
+    </div>
+
+    <!-- Main Image -->
+    <div class="main-image">
+      <img src="image/honeycomb-500gm.jpg" alt="main_image">
+      <div class="discount-badge">৳100 ডিসকাউন্ট</div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="product-details">
+      <h2>Natural Honeycomb - 500gm</h2>
+      <div class="price">Tk 1,400.00 <span class="old-price">Tk 1,500.00</span> <span class="tag">SAVE TK 100.00</span> <span class="tag">honey</span></div>
+
+      <div class="buttons">
+        <button class="add-to-cart">Add to cart</button>
+        <button class="order-now">🛒 ক্যাশ অন ডেলিভারিতে অর্ডার করুন</button>
+        <button class="pay-online">💳 Pay Online</button>
+        <button class="Chat-online"><img src="image/Messenger.webp" alt="meassenger"> Chat with us</button>
+        <button class="Whatsapp-online"><img src="image/whatsapp.png" alt=""> WhatsAPP Us</button>
+        <div class="Descrition_menu">
+          <p>Description    <svg class="svg_R" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg></p>
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="Contuct_details">
+          <p><b>আমাদের যে কোন পন্য অর্ডার করতে কল বা WhatsApp করুন:</b></p>
+              <br>
+              <br>
+            <p><a href="#">+8801321208940</a></p>
+            <p><a href="#">হট লাইন: 09642-922922</a></p>  
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--delivery Section Start-->
+         <div class="delivery">
+                <div class="deliver_content_first">
+                    <img src="image/icon1.jpg" alt="image">
+                    <h2>নিরাপদ পেমেন্ট</h2>
+                    <p>বিভিন্ন পেমেন্ট পদ্ধতি থেকে বেছে নিন</p>
+                </div>
+                <div class="deliver_content_Second">
+                    <img  src="image/icon2.jpg" alt=" image">
+                    <h2>গ্রিন ডেলিভারি</h2>
+                    <p>৩-৫ দিনের মধ্যে আপনার পন্য পৌছে যাবে</p>
+                </div>
+                <div class="deliver_content_Third">
+                    <img src="image/icon3.jpg" alt="image">
+                    <h2>১০০% ন্যাচারাল</h2>
+                    <p>প্রাকৃতিক উপাদান ব্যবহার করতে আমরা 
+                                  প্রতিশ্রুতিবদ্ধ</p>
+                </div>
+            </div>
+            <!--delivery Section End -->
+</body>
+</html>
